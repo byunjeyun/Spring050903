@@ -35,7 +35,7 @@ public class OtherStudent {
 	@PostConstruct
 	
 	
-	public void initMethod() throws Exception{ //빈 초기화단계에서 호출
+	public void initMethod()  { //빈 초기화단계에서 호출
 		System.out.println("initmethod 메서드 호출됨");
 		
 	}
